@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <link rel="stylesheet" href="./css/style2.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <video autoplay muted loop id="myVideo">
+        <source src="./assets/videos/v1.mp4" type="video/mp4">
+      </video>
+      <div class="testimonials">
+        <div class="inner">
+          <h1>Our Projects</h1>
+          <div class="border"></div>
+  
+          <div class="row">
+            <div class="col">
+              <div class="testimonial">
+                <img src="./assets/img/b1.jpeg" alt="">
+                <div class="name">Housing project</div>
+                <div class="stars">
+                </div>
+  
+                <p>
+                  Any project used by the public or that serves the community including schools, university buildings, hospitals, medical centres, infrastructure, stations, airports, sports halls
+                </p>
+              </div>
+            </div>
+  
+            <div class="col">
+              <div class="testimonial">
+                <img src="./assets/img/b2.jpeg" alt="">
+                <div class="name">Civic building</div>
+                <div class="stars">
+                </div>
+  
+                <p>
+                  Any project used by the public or that serves the community including schools, university buildings, hospitals, medical centres, infrastructure, stations, airports, sports halls
+                </p>
+              </div>
+            </div>
+  
+            <div class="col">
+              <div class="testimonial">
+                <img src="./assets/img/b3.jpeg" alt="">
+                <div class="name">Hospitality building</div>
+                <div class="stars">
+                </div>
+                <p>
+                  Any project used by the public or that serves the community including schools, university buildings, hospitals, medical centres, infrastructure, stations, airports, sports halls
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button>Continue</button>
+      </div>
+
+
+
+<section id="project">
+  <div class="project-heading">
+    <span>Let's See Our Work</span>
+    <h3>Our Projects</h3>
+  </div>
+  <ul class="project-filter">
+    <li class="list project-filter-active">All</li>
+    <li class="list">Exterior</li>
+    <li class="list">Interior</li>
+    <li class="list">Buildings</li>
+  </ul>
+
+<div class="project-con">
+  <a href="">
+    <img src="./assets/b1.jpeg" alt="">
+  </a>
+</div>
+
+
+
+
+
+</section>
+
+
+<script>
+  $(document).on('click','.project-filter li',function(){
+    $(this).addClass('project-filter-active').siblings().removeClass('project-filter-active')
+  })
+</script>
+</body>
+</html>

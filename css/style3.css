@@ -1,0 +1,71 @@
+
+.p-desc{
+    margin: 5rem 12rem;
+}
+.p-desc-head{
+    font-size: 24px;
+    font-weight: 800;
+    text-align: center;
+    text-decoration: underline;
+}
+.p-detail-list{
+    margin: 2rem 0 0 0;
+}
+.p-details{
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+}
+.other-p{
+    margin-bottom: 5rem;
+}
+.other-p-head{
+    margin: 2rem 12rem;
+    font-size: 18px;
+    font-weight: 800;
+}
+@media (max-width: 1000px) {
+    .p-desc{
+        margin: 3rem 8rem;
+    }
+    .other-p-head{
+        margin: 2rem 8rem;
+    }
+}
+@media (max-width: 600px) {
+    .p-desc{
+        margin: 3rem 4rem;
+    }
+    .other-p-head{
+        margin: 2rem 4rem;
+    }
+}
+@media (max-width: 450px) {
+    .p-desc{
+        margin: 3rem 2rem;
+    }
+    .other-p-head{
+        margin: 2rem 2rem;
+    }
+}
+.card-link{
+    color: black;
+    text-decoration: none;
+}
+.card-link:hover{
+    color: black;
+}
+
+.carousel-control-next,
+.carousel-control-prev /*, .carousel-indicators */ {
+    filter: invert(100%);
+}
+.carousel .carousel-indicators button {background-color: red;}
+.carousel .carousel-indicators li.active {background-color: blue;}
+#indicatorss{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-right: 15%;
+    margin-left: 15%;
+    margin-bottom: 1rem;
+}
